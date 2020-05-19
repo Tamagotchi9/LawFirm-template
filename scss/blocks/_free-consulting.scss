@@ -1,0 +1,119 @@
+.free-consulting {
+  margin-bottom: 100px;
+}
+.free-consulting__inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.free-consulting__content {
+  margin-right: 50px;
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 430px;
+
+  @media #{$laptopM} {
+    margin-bottom: 30px;
+  }
+
+  @media #{$tablet} {
+    max-width: 400px;
+    margin-right: 0;
+  }
+
+  @media #{$mobile-sm} {
+    max-width: 300px;
+  }
+}
+
+.free-consulting__forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.free-consulting__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 690px;
+
+  @media #{$laptopM} {
+    max-width: 400px;
+  }
+
+  @media #{$mobile-sm} {
+    max-width: 300px;
+  }
+}
+
+.free-consulting__input {
+  padding: 15px;
+  display: flex;
+  min-width: 320px;
+
+  border: 2px solid rgba(207, 148, 85, 0.3);
+  background-color: rgba(238, 238, 238, 0.3);
+
+  margin-bottom: 30px;
+
+  &::placeholder {
+    color: $black;
+    opacity: 60%;
+  }
+
+  @media #{$laptopM} {
+    min-width: 150px;
+  }
+
+}
+
+.free-consulting__textarea {
+  padding: 15px;
+  margin-bottom: 50px;
+  min-width: 690px;
+  min-height: 150px;
+  display: flex;
+
+  border: 2px solid rgba(207, 148, 85, 0.3);
+  background-color: rgba(238, 238, 238, 0.3);
+
+  &::placeholder {
+    color: $black;
+    opacity: 60%;
+  }
+
+  @media #{$laptopM} {
+    min-width: 400px;
+  }
+
+  @media #{$mobile-sm} {
+    min-width: 300px;
+  }
+}
+
+
+.free-consulting__title {
+  margin-bottom: 20px;
+
+  @include font-title;
+
+  font-size: 36px;
+  font-weight: 700;
+  color: $black;
+}
+
+.free-consulting__subtitle {
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  color: $black;
+}
+
+.free-consulting__text {
+  font-size: 16px;
+  color: $gray;
+  line-height: 1.8;
+}
+

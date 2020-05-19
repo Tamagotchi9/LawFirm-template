@@ -1,0 +1,206 @@
+.about-us {
+  margin: 100px 0;
+}
+
+.about-us__inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media #{$laptopL} {
+    justify-content: center;
+  }
+}
+
+.about-us__photo {
+  flex-basis: 50%;
+  max-width: 690px;
+
+  @media #{$laptopL} {
+    max-width: 550px;
+    margin-right: 25px;
+  }
+
+  @media #{$laptopM} {
+    max-width: 450px;
+  }
+
+  @media #{$laptop} {
+    max-width: 350px;
+  }
+
+  @media #{$mobile} {
+    max-width: 550px;
+    margin-bottom: 25px;
+  }
+}
+
+.about-us__block {
+  position: absolute;
+  width: 664px;
+  height: 603px;
+  background: $main-color;
+
+  opacity: 20%;
+
+  transform: translate(-22px, -22px);
+
+  @media #{$laptopL} {
+    width: 550px;
+    height: 499px;
+  }
+
+  @media #{$laptopM} {
+    width: 450px;
+    height: 408px;
+  }
+
+  @media #{$laptop} {
+    width: 350px;
+    height: 317px;
+  }
+
+  @media #{$mobile} {
+    width: 550px;
+    height: 499px;
+  }
+
+  @media #{$mobile-sm} {
+    width: 350px;
+    height: 317px;
+  }
+
+  @media #{$mobile-smaller} {
+    width: 300px;
+    height: 273px;
+  }
+}
+
+.about-us__img {
+  position: relative;
+
+  @media #{$laptopL} {
+    width: 550px;
+    height: auto;
+  }
+
+  @media #{$laptopM} {
+    width: 450px;
+    height: auto;
+  }
+
+  @media #{$laptop} {
+    width: 350px;
+    height: auto;
+  }
+
+  @media #{$mobile} {
+    width: 550px;
+    height: auto;
+  }
+
+  @media #{$mobile-sm} {
+    width: 350px;
+    height: auto;
+  }
+
+  @media #{$mobile-smaller} {
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+.about-us__content {
+  flex-basis: 50%;
+  max-width: 690px;
+
+  @media #{$laptopL} {
+    max-width: 550px;
+  }
+
+  @media #{$laptopM} {
+    max-width: 450px;
+  }
+
+  @media #{$laptop} {
+    max-width: 350px;
+  }
+
+  @media #{$mobile} {
+    max-width: 690px;
+    flex-basis: 100%;
+  }
+
+  @media #{$mobile-sm} {
+    max-width: 400px;
+    flex-basis: 100%;
+  }
+
+  @media #{$mobile-smaller} {
+    max-width: 250px;
+    flex-basis: 100%;
+  }
+}
+
+.about-us__title {
+  @include font-title;
+  margin-bottom: 25px;
+
+  font-size: 36px;
+  font-weight: 700;
+  color: $black;
+  line-height: 1.333;
+
+  @media #{$laptopL} {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  @media #{$laptopM} {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
+
+.about-us__subtitle {
+  margin-bottom: 60px;
+
+  font-size: 16px;
+  color: $gray;
+
+  @media #{$laptopL} {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  @media #{$laptopM} {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+}
+
+.about-us__text {
+  margin-bottom: 40px;
+
+  font-size: 16px;
+  color: $gray;
+  line-height: 1.875;
+
+  @media #{$laptopL} {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  @media #{$laptopM} {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+}
+
+.signature {
+  margin-top: 65px;
+
+  @media #{$laptopL} {
+    margin-top: 25px;
+  }
+}

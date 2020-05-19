@@ -1,0 +1,29 @@
+.social {
+  @media (max-width: 583px) {
+    margin-top: 25px;
+
+  }
+
+  @media #{$mobile} {
+    display: none;
+  }
+}
+.social__link {
+  margin-right: 30px;
+  cursor: pointer;
+
+  text-decoration: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--footer {
+    margin-right: 25px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+}

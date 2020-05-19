@@ -1,0 +1,86 @@
+.story {
+  padding: 165px 0 100px 0;
+}
+
+
+.story__content {
+  margin-top: 70px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media #{$laptopL} {
+    margin-top: 0;
+  }
+
+  @media #{$laptopM} {
+    justify-content: center;
+  }
+}
+
+.story__photo {
+  flex-basis: 50%;
+
+  margin-right: 25px;
+}
+
+.story__img {
+  @media #{$mobile} {
+    margin-right: 0;
+    width: 550px;
+    height: auto;
+  }
+
+  @media #{$mobile-sm} {
+    width: 450px;
+    height: auto;
+  }
+
+  @media #{$mobile-smaller} {
+    width: 350px;
+    height: auto;
+  }
+
+}
+
+.story__description {
+  flex-basis: 50%;
+  max-width: 500px;
+
+  @media #{$laptop} {
+    flex-basis: 100%;
+    max-width: 550px;
+  }
+
+  @media #{$mobile-sm} {
+    max-width: 450px;
+  }
+}
+
+.story__title {
+  margin-bottom: 35px;
+
+  @include font-title;
+  font-size: 46px;
+  color: $black;
+
+  @media (max-width: 1251px) {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+.story__text {
+  margin-bottom: 50px;
+
+  font-size: 16px;
+  color: $gray;
+  line-height: 1.9;
+
+  @media (max-width: 1251px) {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+

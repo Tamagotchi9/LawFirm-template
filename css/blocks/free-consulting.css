@@ -1,0 +1,8 @@
+.free-consulting__inner {
+  display: flex;
+}
+
+.free-consulting__content {
+  width: 100%;
+  max-width: 430px;
+}

@@ -1,0 +1,21 @@
+.burger {
+  display: none;
+
+  width: 25px;
+  height: 25px;
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+
+  @media #{$laptopM} {
+    display: block;
+  }
+}
+
+.burger__icon {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

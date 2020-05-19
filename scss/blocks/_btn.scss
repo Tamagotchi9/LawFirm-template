@@ -1,0 +1,70 @@
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  border: 2px solid $main-color;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: $white;
+  background: $main-color;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background 0.2s linear, color 0.2s linear;
+
+  &--swap {
+    color:  $main-color;
+    background: $white;
+
+    &:hover {
+      color: $white;
+      background: $main-color;
+    }
+  }
+
+  &--intro {
+    &:hover {
+      color: $white;
+      background: none;
+    }
+
+    @media #{$mobile} {
+      padding: 14px 24px;
+      font-size: 14px;
+    }
+  }
+
+  &--large {
+    padding: 20px 15px;
+  }
+
+  &--newsletter {
+    padding: 15px 30px;
+    border: 1px solid $main-color;
+    border-radius: 0 25px 25px 0;
+    outline: none;
+
+    &::placeholder {
+      color: $white;
+      opacity: 60%;
+    }
+
+    @media #{$mobile} {
+      padding: 10px 20px;
+      font-size: 13px;
+    }
+  }
+
+  &--free-consulting {
+    max-width: 250px;
+  }
+}
+
+
+
+
+
+
+

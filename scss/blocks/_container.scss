@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  &--mini {
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+  }
+}
